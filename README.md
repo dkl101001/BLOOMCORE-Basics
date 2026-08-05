@@ -47,6 +47,17 @@ The relationship is intentionally one-way: Basics may explain and validate publi
 - [Canonical BLOOMCORE Public repository](https://github.com/dkl101001/BLOOMCORE-)
 - [Current BLOOMCORE NOW releases](https://github.com/dkl101001/BLOOMCORE-NOW)
 
+## BLOOMCORE constellation
+
+| Repository | Role |
+|---|---|
+| **[BLOOMCORE Public](https://github.com/dkl101001/BLOOMCORE-)** | Canonical public meaning, Phase 38 orientation, licensing, and evidence boundaries |
+| **BLOOMCORE Basics** | Adoption-facing schemas, examples, validators, and technical grammar |
+| **[BLOOMCORE NOW](https://github.com/dkl101001/BLOOMCORE-NOW)** | Bounded tested releases and foundry evidence |
+| **Access-controlled organismal surfaces** | Private custody, identity-continuity, integration, and release preparation |
+
+Use the canonical public [constellation map](https://github.com/dkl101001/BLOOMCORE-/blob/main/docs/architecture/CONSTELLATION.md). Private repositories are intentionally not linked from this public adoption surface.
+
 ## What belongs here
 
 - public schemas and packet examples;
