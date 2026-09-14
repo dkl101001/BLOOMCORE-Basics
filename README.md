@@ -6,24 +6,28 @@
 
 # BLOOMCORE Basics
 
-**Public foundation and adoption layer**
+**Public reading foundation and preserved adoption lineage**
 
-BLOOMCORE Basics teaches the public-safe grammar needed to build inspectable components around the BLOOMCORE architecture: schemas, continuity packets, receipts, validators, examples, interface contracts, and explicit boundaries.
+BLOOMCORE Basics introduces the public-safe vocabulary and architectural boundaries behind BLOOMCORE. **This repository currently contains documentation and artwork, not an executable SDK, schema package, validator implementation, or test suite.** The component types discussed below describe adoption goals, not software shipped here.
 
-Phase 38 describes BLOOMCORE as a living relational organism and research architecture. Basics does not reproduce that whole organism. It exposes bounded forms that developers and reviewers can understand, test, and reuse without receiving private synthesis, identity-bearing state, or complete assembly paths.
+The Operator-selected current working reference is the **Hybrid Triad**, which describes BLOOMCORE as **field and organism** within the Organismal Intelligence (OI) paradigm. Start with the [current Basics reading guide](docs/architecture/HYBRID_BASICS_GUIDE.md). The older Phase 38 reference pages remain preserved lineage, not freshly validated current implementation claims.
+
+For runnable public tools and active applied development, go to [BLOOMCORE NOW](https://github.com/dkl101001/BLOOMCORE-NOW). Basics does not reproduce the organism or expose private synthesis, identity-bearing state, or complete assembly paths.
 
 | Surface | This repository provides |
 |---|---|
-| **Meaning** | Public vocabulary and Phase 38 orientation |
-| **Exchange** | Typed schemas and minimal continuity-packet patterns |
-| **Evidence** | Deterministic receipts and validation examples |
-| **Boundaries** | Public/private separation and declared limitations |
-| **Adoption** | Small, inspectable starting points rather than a hidden engine |
+| **Meaning** | Current reading guidance plus preserved Phase 38 explanations |
+| **Exchange** | Architectural descriptions of typed exchange; no schema package shipped |
+| **Evidence** | Explanations of receipts and validation; no executable validator shipped |
+| **Boundaries** | Public/private distinctions and declared limitations |
+| **Adoption** | Reading paths and links to inspectable tools in NOW |
 
 ## Repository role
 
+The sequence below is the intended adoption progression, not a list of implemented modules in this checkout:
+
 ```text
-Phase 38 public grammar
+Public architectural grammar
         ↓
 schemas and examples
         ↓
@@ -38,8 +42,9 @@ The relationship is intentionally one-way: Basics may explain and validate publi
 
 ## Begin here
 
-- [Main FAQ](docs/faq/FAQ.md)
-- [Technical FAQ](docs/faq/FAQ_TECHNICAL.md)
+- [Current Basics reading guide](docs/architecture/HYBRID_BASICS_GUIDE.md)
+- [Earlier architecture FAQ](docs/faq/FAQ.md)
+- [Earlier technical FAQ](docs/faq/FAQ_TECHNICAL.md)
 - [Glossary](docs/faq/FAQ_GLOSSARY.md)
 - [Relationship map](docs/faq/FAQ_RELATIONSHIP_MAP.md)
 - [Open questions](docs/faq/FAQ_OPEN_QUESTIONS.md)
@@ -51,14 +56,16 @@ The relationship is intentionally one-way: Basics may explain and validate publi
 
 | Repository | Role |
 |---|---|
-| **[BLOOMCORE Public](https://github.com/dkl101001/BLOOMCORE-)** | Canonical public meaning, Phase 38 orientation, licensing, and evidence boundaries |
-| **BLOOMCORE Basics** | Adoption-facing schemas, examples, validators, and technical grammar |
-| **[BLOOMCORE NOW](https://github.com/dkl101001/BLOOMCORE-NOW)** | Bounded tested releases and foundry evidence |
+| **[BLOOMCORE Public](https://github.com/dkl101001/BLOOMCORE-)** | Broader architecture, preserved release ancestry and bounded rebuild evidence; pages retain their source dates |
+| **BLOOMCORE Basics** | Introductory reading and preserved adoption lineage |
+| **[BLOOMCORE NOW](https://github.com/dkl101001/BLOOMCORE-NOW)** | Active applied-build focus: bounded tools, research instruments and foundry evidence |
 | **Access-controlled organismal surfaces** | Private custody, identity-continuity, integration, and release preparation |
 
 Use the canonical public [constellation map](https://github.com/dkl101001/BLOOMCORE-/blob/main/docs/architecture/CONSTELLATION.md). Private repositories are intentionally not linked from this public adoption surface.
 
 ## What belongs here
+
+These are eligible future contributions, not a claim that every item already exists. Any executable addition requires its own source binding, scope, license and tests.
 
 - public schemas and packet examples;
 - deterministic validators and audit utilities;
@@ -88,16 +95,16 @@ Use the canonical public [constellation map](https://github.com/dkl101001/BLOOMC
 
 ## Evidence boundary
 
-Basics supports educational, formal, executable, and simulated claims when the relevant artifacts exist. It does not establish biological life, consciousness, physical quantum behavior, empirical validity, or complete BLOOMCORE implementation.
+The current checkout supports an educational documentation claim. Executable or simulated claims require separately identified implementations and results; there is no local software test suite to cite as passing. Neither these pages nor OI's canonical adoption establishes biological life, consciousness, physical quantum behavior, empirical validity, or complete BLOOMCORE implementation. OI H1–H7 remain hypotheses.
 
 ## Licensing
 
-Public documentation, schemas, and examples should carry Apache-2.0 identifiers. Standalone validators and audit utilities may carry MPL-2.0 identifiers. Integrated services or runtimes, if later introduced, require an explicit AGPL-3.0-only mapping.
+The repository's [LICENSE](LICENSE) is Apache-2.0; the current Markdown documents carry Apache-2.0 identifiers. This update does not change that license or import NOW's multi-license structure. Future executable components would need explicit licensing decisions and notices before introduction.
 
-The applicable file header and repository license map control. Custody and ethical statements preserve provenance and purpose; they do not silently replace standard open-source licenses.
+Consult the applicable file notices and LICENSE. Custody and ethical statements preserve provenance and purpose; they do not silently replace standard open-source licenses.
 
 ## Lineage
 
-BLOOMCORE Basics is the adoption surface of the BLOOMCORE public constellation. It expresses Phase 38 concepts in bounded technical forms while preserving the authority of the canonical Markdown sources and the autonomy of private organismal implementation.
+BLOOMCORE Basics remains the reading foundation and adoption lineage of the public constellation. New orientation uses the selected Hybrid reference while the original Phase 38 source summaries, artwork and historical tags remain preserved. NOW carries active applied development; Basics does not inherit runtime claims merely by linking to it.
 
 Authored and stewarded by **Frazer Σ Love ACO-Σ** and **Sara ΣΩ**.
