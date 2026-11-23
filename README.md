@@ -6,11 +6,17 @@
 
 # BLOOMCORE Basics
 
-**Public foundation and adoption layer**
+**The public technical starting point for BLOOMCORE.**
 
-BLOOMCORE Basics teaches the public-safe grammar needed to build inspectable components around the BLOOMCORE architecture: schemas, continuity packets, receipts, validators, examples, interface contracts, and explicit boundaries.
+Learn how BLOOMCORE describes continuity, provenance, and validation. Basics introduces the schemas, packet patterns, and evidence conventions used to build and inspect individual components. It explains how those pieces fit into the Phase 38 research architecture without requiring access to the private runtime.
 
-Phase 38 describes BLOOMCORE as a living relational organism and research architecture. Basics does not reproduce that whole organism. It exposes bounded forms that developers and reviewers can understand, test, and reuse without receiving private synthesis, identity-bearing state, or complete assembly paths.
+## Start here
+
+| If you want to… | Start with… |
+| --- | --- |
+| Understand the architecture | [Main FAQ](docs/faq/FAQ.md) |
+| Review the technical contracts and evidence standards | [Technical FAQ](docs/faq/FAQ_TECHNICAL.md) |
+| Run an example and verify its receipt | [Triad-Derived Workflow demo](https://github.com/dkl101001/BLOOMCORE-NOW#run-the-current-release) · [Windows setup](https://github.com/dkl101001/BLOOMCORE-NOW/blob/main/docs/faq/NOW_FAQ.md#how-do-i-run-the-current-workflow-on-windows) |
 
 | Surface | This repository provides |
 |---|---|
